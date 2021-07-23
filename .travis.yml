@@ -26,6 +26,38 @@
 #  - 2.2
 #  - jruby
 
+# language: python
+# script:
+#   - print("HEllo")
+
+os:
+  - linux 
+on:
+  push:
+    branch : [master]
 language: python
+python:
+  - 3.8
+  - 3.9
+  - 3.6
 script:
-  - print("HEllo")
+  - pytest
+
+notifications:
+  email:
+    recipients:
+      - naveenmishra1197@gmail.com
+    on_success: always
+    on_failure: always
+
+
+
+
+
+
+
+
+
+
+
+
