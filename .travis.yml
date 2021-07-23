@@ -21,7 +21,11 @@
 #   - npm run build
 #   - npm run test
 
-language: ruby
-rvm:
- - 2.2
- - jruby
+# language: ruby
+# rvm:
+#  - 2.2
+#  - jruby
+
+language: python
+  script:
+    - pytest
