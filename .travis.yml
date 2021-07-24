@@ -7,7 +7,7 @@ script:
 notifications:
   email:
     recipients:
-      - mohdatayyabali1998@gmail.com
+      - mohdtayyabali1998@gmail.com
     on_success: never
     on_failure: always
 
